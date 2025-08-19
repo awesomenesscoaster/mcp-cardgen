@@ -76,4 +76,4 @@ if student_id:
     st.write("Overview")
     st.table([{"Seminar": t, "Present": "✅" if student_id in attendance.get(t, set()) else "—"} for t in all_tabs])
 
-st.caption("Counts the number of seminars you have attended throughout this year.")
+st.caption("Counts the number of seminars you have attended throughout this year.\n \nAny issues? Contact an MCP director.")
