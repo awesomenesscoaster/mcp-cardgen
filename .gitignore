@@ -1,0 +1,13 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# Local secrets / keys
+.streamlit/secrets.toml
+*.json
+*.pem
+
+# OS/IDE
+.DS_Store
+.vscode/
+.env
