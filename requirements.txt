@@ -2,3 +2,6 @@ streamlit==1.37.1
 pillow==10.4.0
 python-barcode[images]==0.15.1
 reportlab==4.2.2
+
+gspread==6.1.2
+google-auth==2.33.0
